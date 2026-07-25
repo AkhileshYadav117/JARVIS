@@ -1,6 +1,6 @@
 # 🤖 JARVIS – Voice-Controlled Desktop AI Assistant
 
-JARVIS is a Python-powered virtual assistant designed to perform tasks, automate system workflows, and answer complex queries via natural voice commands—much like Amazon's Alexa or Apple's Siri. By integrating real-time web browsing, music playback, and LLM intelligence via Google Gemini, JARVIS turns speech input into instant action.
+JARVIS is a Python-powered virtual assistant designed to perform tasks, automate system workflows, and answer complex queries via natural voice commands—much like Amazon's Alexa or Apple's Siri. By integrating real-time web browsing, music playback, API key by Google Gemini, JARVIS turns speech input into instant action.
 
 ---
 
