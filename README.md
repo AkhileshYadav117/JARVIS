@@ -39,5 +39,5 @@ Follow these instructions to set up and run JARVIS on your local machine.
 
 1. **Clone the Repository**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/jarvis.git](https://github.com/YOUR_USERNAME/jarvis.git)
+   git clone [https://github.com/AkhileshYadav117/jarvis.git](https://github.com/AkhileshYadav117/jarvis.git)
    cd jarvis
