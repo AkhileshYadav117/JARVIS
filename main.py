@@ -1,14 +1,18 @@
+import os
 import speech_recognition as sr  
 import webbrowser 
 import pyttsx3
 import musicLibrary
 import requests
 from google import genai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 #pip install pocketsphinx
 recognizer=sr.Recognizer()
 #engine=pyttsx3.init() 
-newsapi="3e9907d2102e48ccb8d9b2a5e2ef5bcd"
+newsapi=os.getenv("newsapi")
 # important command for my terminal if something went wrong is .\.venv\Scripts\python.exe
 def speak(text):
     engine = pyttsx3.init() 
@@ -21,7 +25,7 @@ def speak(text):
     engine.runAndWait()
 
 def aiprocess(command):
-    client = genai.Client(api_key="AQ.Ab8RN6LMNP_EU8rDEfTBDKFPOT5FfTj5nIdCHuT5t-oSENIPzw")
+    client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
     prompt = f"Answer this short voice assistant command in one or two brief sentences: {command}"
     response = client.models.generate_content(
         model="gemini-3.5-flash",
