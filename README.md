@@ -46,38 +46,73 @@ JARVIS/
 ├── README.md
 ├── .gitignore
 └── .env              # Local only
+```
 
-🚀 Installation
-1. Clone the Repository
+---
+
+## 🚀 Installation
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/AkhileshYadav117/jarvis.git
 cd jarvis
-2. Create Virtual Environment
+```
+
+### 2. Create Virtual Environment
+
+```bash
 python -m venv .venv
 .venv\Scripts\activate
-3. Install Dependencies
+```
+
+### 3. Install Dependencies
+
+```bash
 pip install SpeechRecognition pyttsx3 google-genai requests python-dotenv
-4. Configure API Keys
+```
 
-Create a .env file in the project directory:
+### 4. Configure API Keys
 
+Create a `.env` file in the project directory:
+
+```env
 GEMINI_API_KEY=your_gemini_api_key
 newsapi=your_newsapi_key
-5. Run JARVIS
+```
+
+### 5. Run JARVIS
+
+```bash
 python main.py
-💬 Example Commands
+```
+
+---
+
+## 💬 Example Commands
+
+```text
 "Open YouTube"
 "Search Python tutorials"
 "Play music"
 "What is Artificial Intelligence?"
 "Give me the latest news"
-🔐 Security
+```
 
-API keys are stored in .env and excluded from Git using .gitignore.
+---
 
-⚠️ Never commit your API keys or other sensitive credentials to GitHub.
+## 🔐 Security
+
+API keys are stored in `.env` and excluded from Git using `.gitignore`.
+
+> ⚠️ Never commit your API keys or other sensitive credentials to GitHub.
+
+---
 
 ⭐ If you found this project useful, consider giving it a Star.
 
-<p align="center"> <b>🤖 JARVIS — Turning Your Voice Into Action.</b> </p>
+---
 
-
+<p align="center">
+  <b>🤖 JARVIS — Turning Your Voice Into Action.</b>
+</p>
