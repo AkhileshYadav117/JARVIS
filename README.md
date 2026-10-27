@@ -109,7 +109,6 @@ API keys are stored in `.env` and excluded from Git using `.gitignore`.
 
 ---
 
-⭐ If you found this project useful, consider giving it a Star.
 
 ---
 
